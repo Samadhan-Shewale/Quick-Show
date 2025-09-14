@@ -50,7 +50,7 @@ function Navbar() {
                                 onClick={ ()=> navigate('/my-bookings')} />
                         </UserButton.MenuItems>
                     </UserButton>
-                    ) 
+                    )  
                 }
             </div>
             <MenuIcon className='max-md:ml-4 md:hidden w-8 h-8 cursor-pointer'

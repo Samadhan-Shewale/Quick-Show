@@ -15,9 +15,9 @@ const App = () =>{
   const isAdminURL = useLocation().pathname.startsWith('/admin');
 
   return(
-    <>
-      <Toaster />
-      { !isAdminURL && <Navbar />} 
+    <> 
+      <Toaster />    {/* Enable the feature notification / to show the notification */}
+      { !isAdminURL && <Navbar />}   {/* Hide if dashboard is open */}
       <Routes > 
           <Route path="/" element={ <Home />} />
           <Route path="/movies" element={ <Movies />} />  
