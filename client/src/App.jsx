@@ -16,7 +16,7 @@ const App = () =>{
 
   return(
     <> 
-      <Toaster />    {/* Enable the feature notification / to show the notification */}
+      <Toaster />    {/* Enable the  notification feature / to show the notification */}
       { !isAdminURL && <Navbar />}   {/* Hide if dashboard is open */}
       <Routes > 
           <Route path="/" element={ <Home />} />
